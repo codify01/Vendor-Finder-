@@ -32,7 +32,7 @@ const getVendor = async (req, res) =>{
 const getVendorByName = async (req, res) => {
     try{
         const vendor = await vendorModel.findOne({owner: req.params.owner})
-        console.log(vendor);
+        // console.log(vendor);
         if(vendor){
             res.status(200).json({
                 message:'Vendor fetched successfully',
@@ -53,7 +53,8 @@ const getVendorByName = async (req, res) => {
 const getVendorById = async (req, res)=>{
     try{
         const vendor = await vendorModel.findById(req.params.id)
-        console.log(vendor);
+        // console.log(req.params)
+        // console.log(vendor);
         if(vendor){
             res.status(200).json({
                 message:'Vendor fetched successfully',
