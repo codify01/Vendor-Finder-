@@ -10,7 +10,7 @@ const vendorSchema = mongoose.Schema({
     address:{type:String,required:true},
     city:{type:String,required:true},
     state:{type:String,required:true},
-    experience:{type:String,required:true},
+    experience:{type:Number,required:true},
     serviceCoverage:{type:String,required:true},
     Bio:{type:String,required:true, length:400},
     bussinessHour:{type:String},
