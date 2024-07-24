@@ -1,6 +1,6 @@
 import React, { lazy } from 'react'
 import Nav from './components/Nav'
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
 const Services = lazy(()=>import('./pages/Services'))
 const AboutUs=lazy(()=>import('./pages/AboutUs'))
 const Home=lazy(()=>import('./pages/Home'))
@@ -13,7 +13,7 @@ const Profile = lazy(()=>import('./pages/Profile'))
 const App = () => {
   return (
     <>
-    <Router>
+    
     <Nav/>
     <Routes>
       <Route path='/' element={<Home/>}/>
@@ -26,8 +26,8 @@ const App = () => {
       <Route path="/services" element={<Services/>}/>
       <Route path="/profile" element={<Profile/>}/>
     </Routes>
-    </Router>
     </>
+    
   )
 }
 
