@@ -9,7 +9,7 @@ const Hero = () => {
 	};
   return (
     <div className='relative'style={myBgStyle}>
-      <div className={`p-4 md:w-[30%] mx-auto text-left md:text-center space-y-12 relative z-10 text-white h-[500px] md:h-[700px] place-content-center`} >
+      <div className={`p-4 lg:w-[600px] mx-auto text-left md:text-center space-y-12 relative z-10 text-white h-[500px] md:h-[700px] place-content-center`} >
           <h1 className='text-4xl   font-bold tracking-wide playFair'>Find The Right Vendors To Make Your Event Exceptional</h1>
           <button className='bg-[#0C4E8B] p-2 text-white rounded'>Hire a Vendor</button>
       </div>

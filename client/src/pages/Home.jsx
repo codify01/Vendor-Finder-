@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <>
       <Hero/>
-      <div className='container flex flex-col justify-between items-center bg-blac py-10'>
+      <div className='container flex flex-co flex-col-reverse md:flex-row justify-between items-center bg-blac py-10'>
         <div className='relative m-5'>
           <div className='w-[150px] h-[150px] bg-[#EFBC88] absolute -top-2.5 -left-2.5 rounded-l-md'>
           </div>
