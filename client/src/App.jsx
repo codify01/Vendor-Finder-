@@ -2,13 +2,14 @@ import React, { lazy } from 'react'
 import Nav from './components/Nav'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 const Services = lazy(()=>import('./pages/Services'))
-const AboutUs=lazy(()=>import('./pagees/AboutUs'))
+const AboutUs=lazy(()=>import('./pages/AboutUs'))
 const Home=lazy(()=>import('./pages/Home'))
 const Categories =lazy(()=>import('./pages/Categories'))
 const Questions =lazy(()=>import('./pages/Questions'))
 const PartnerWithUs =lazy(()=>import('./pages/PartnerWithUs'))
 const Register = lazy(()=>import('./pages/Register'))
 const SearchPage = lazy(()=>import('./pages/SearchPage'))
+const Profile = lazy(()=>import('./pages/Profile'))
 const App = () => {
   return (
     <>
