@@ -6,15 +6,15 @@ import { Link } from 'react-router-dom';
 const Nav = () => {
   return (
     <>
-    <div className='bg-slate-950 h-28 flex justify-between items-center'>
+    <div className='bg-white h-28 flex justify-between items-center container'>
     <div className='w-40 mt-5'> <img src={Logo} alt="" /></div>
-    <ol className='text-white flex justify-end gap-16 items-center h-full me-9 text-lg'>
+    <ul className='hidden  text-whit md:flex justify-end gap-16 items-center h-full me-9 text-lg'>
       <li> <Link to="/" className="text-white">Home</Link></li>
-      <li> <Link to="/about-us" className="text-white">About Us</Link></li>
-      <li> <Link to="/services" className="text-white">Services</Link></li>
-      <li> <Link to="/categories" className="text-white">Categories</Link></li>
-      <li> <Link to="/partner" className="text-white">Partner With Us</Link></li>
-    </ol>
+      <li> <Link to="/about-us">About Us</Link></li>
+      <li> <Link to="/services">Services</Link></li>
+      <li> <Link to="/categories">Categories</Link></li>
+      <li> <Link to="/partner">Partner With Us</Link></li>
+    </ul>
     </div>
     </>
   )
