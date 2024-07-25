@@ -7,7 +7,12 @@ export default {
   theme: {
     container: {
       center: true},
-    extend: {},
+    extend: {
+      colors: {
+        'pry': '#0C4E8B',
+        'sec' : '#04172AE5'
+      }
+    },
   },
   plugins: [],
 }
