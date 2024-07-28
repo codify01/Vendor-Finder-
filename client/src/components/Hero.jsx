@@ -9,7 +9,7 @@ const Hero = () => {
 		backgroundRepeat: 'no-repeat',
 	};
   return (
-    <div className='relative'style={myBgStyle}>
+    <div className='relative' style={myBgStyle}>
       <div className={`p-4 lg:w-[600px] mx-auto text-left md:text-center space-y-12 relative z-10 text-white h-[500px] md:h-[700px] place-content-center`} >
           <h1 className='text-4xl   font-bold tracking-wide playFair'>Find The Right Vendors To Make Your Event Exceptional</h1>
           <PryButton name={'Hire a Vendor'}/>
