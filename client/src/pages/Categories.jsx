@@ -1,8 +1,16 @@
 import React from 'react'
+import CategoriesOne from '../components/CategoriesOne'
+import CategoriesTwo from '../components/CategoriesTwo'
+import CategoriesThree from '../components/CategoriesThree'
+
 
 const Categories = () => {
   return (
-    <div>Categories</div>
+    <div>
+<CategoriesOne/>
+<CategoriesTwo/>
+<CategoriesThree/>
+    </div>
   )
 }
 
